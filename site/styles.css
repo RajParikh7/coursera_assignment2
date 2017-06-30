@@ -3,9 +3,10 @@
 }
 
 .row > div {
-  border: 1px solid red;
+  border: 3px solid red;
   background-color: gray;
   padding:10px;
+  font-family:Comic Sans MS;
 }
 
   /********** Large devices only **********/
@@ -145,14 +146,19 @@ h2
 	position:relative;
 	float:right;
 	text-align:center;
-	border:1px solid green;
-	
+	border:2px solid green;
+	font-family:Comic Sans MS;
+	background-color:blue;	
 	
 }
 h1
 {
 	text-align:center;
+	font-family:Comic Sans MS;
 }
 p{
 	clear:right;
+}
+#bg{
+	background-image:("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMd5VTcOriUMqiGuk4huwwSKLFTpXrQRCNBUYy2HztI3QyT6U");
 }
